@@ -5,6 +5,15 @@
   justify-content: center;
 }
 
+.articles_main > h1{
+  margin-left: 18px;
+  color: #113688;
+}
+
+.articles_others > h1{
+  color: #113688;
+}
+
 header{
   margin-top: 15px;
   display: flex;
