@@ -22,7 +22,8 @@ export class ArtsComponent implements OnInit {
     this.route.paramMap.subscribe((params)=> {
       this.id = params.get('id');
     });
-    this.setValuesToComponent(this.id)
+    if(this.id)
+      this.setValuesToComponent(this.id)
   }
 
   setValuesToComponent(id:string | null){

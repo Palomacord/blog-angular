@@ -14,3 +14,7 @@
 a:hover, .menu {
   color: #EA8F1E;
 }
+
+.activated{
+  color:#EA8F1E;
+}

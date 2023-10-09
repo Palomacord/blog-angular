@@ -16,7 +16,12 @@ const routes: Routes = [
   {
     path:'arts/:id',
     component:ArtsComponent
+  },
+  {
+    path:'arts',
+    component:ArtsComponent
   }
+
 
 ];
 

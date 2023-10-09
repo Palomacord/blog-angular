@@ -1,11 +1,10 @@
 <div class="container_menu-bar">
   <ul>
 
-    <li class="menu"><a href="">Home</a></li>
+    <li class="menu"><a [routerLink]="['/']" [routerLinkActive]="['activated']" [routerLinkActiveOptions]="{exact:true}">Home</a></li>
     <li><span>•</span></li>
-    <li  class="menu"><a href="/about">About</a></li>
+    <li  class="menu"><a [routerLink]="['/about']" [routerLinkActive]="['activated']" [routerLinkActiveOptions]="{exact:true}">About</a></li>
     <li><span>•</span></li>
-    <li  class="menu"><a href="/arts">Arts</a></li>
   </ul>
 
 </div>
